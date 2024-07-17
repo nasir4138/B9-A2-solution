@@ -12,12 +12,22 @@
     box-sizing: border-box;
 }
 /* css shared styles start here */
+.display-flex{
+    display: flex;
+}
 
-
+body{
+    max-width: 1170px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
 /* css shared styles end here */
 
 
 /* navbar style start here  */
+.navbar{
+    justify-content: space-between;
+}
 
 
 
