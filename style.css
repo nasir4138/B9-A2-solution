@@ -18,7 +18,7 @@
 
 body{
     max-width: 1170px;
-    border: 1px solid red;
+    
     margin: 0 auto;
 }
 /* css shared styles end here */
@@ -28,7 +28,99 @@ body{
 .navbar{
     justify-content: space-between;
 }
+.web-name img{
+    max-width: 48px;
+    max-height: 56px;
 
+}
+.web-name h1{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-left: 1rem;
+    
+}
+.travel{
+    color: rgb(255, 84, 0);
+}
+.menu-bar{
+    font-size: 1.1rem;
+    font-weight: 700;
+    
+}
+.menu-list{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-right: 1.4rem;
+    gap: 2.8rem;
+}
+.home-word{
+    color: rgb(255, 84, 0);
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+}
+.hamburger-menu{
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.4rem;
+    display: none;
+}
+.hero-area{
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 1170px;
+    height: 500px;
+    background-image:linear-gradient(rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('Images/Group13.png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    margin: 105px 185px;
+   
+
+}
+
+.banner-container h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255) ;
+        
+}
+.banner-container p{
+
+}
+
+.select-section{
+    max-width: 800px;
+    height: 84px;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.travel-input{
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    
+    border-radius: 8px;
+    border: none;
+}
 
 
 /* navbar style end here  */

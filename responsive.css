@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    .navbar{
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .menu-list li{
+        display: none;
+    }
+    .hamburger-menu{
+        display:flex;
+    }
+    
+}
